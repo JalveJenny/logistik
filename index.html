@@ -22,10 +22,6 @@
         
         /* Kad Servis Lori */
         .service-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 2rem; border: 1px solid #e2e8f0; }
-        .image-placeholder { background-color: #cbd5e0; height: 220px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #4a5568; font-weight: bold; font-size: 1.2rem; text-align: center; padding: 10px; }
-        .image-placeholder span { font-size: 13px; color: #718096; font-weight: normal; margin-top: 5px; }
-        
-        /* Jika anda ada gambar lori sebenar, gantikan placeholder di atas dengan tag <img src="nama_gambar.jpg" class="lori-img"> dan gunakan style di bawah */
         .lori-img { width: 100%; height: 220px; object-fit: cover; display: block; }
 
         .service-content { padding: 1.5rem; }
@@ -59,7 +55,6 @@
         <!-- 📱 SLOT IKLAN GOOGLE ADSENSE -->
         <div class="ads-container">
             <div class="ads-label">Iklan / Advertisement</div>
-            <!-- Gantikan data-ad-slot dengan ID Unit Iklan anda -->
             <ins class="adsbygoogle"
                  style="display:block; min-width:300px; min-height:250px;"
                  data-client="ca-pub-1164829993190598"
@@ -73,13 +68,8 @@
         
         <!-- 🚛 KAD PAPARAN LORI 3 TAN -->
         <div class="service-card">
-            <!-- RUANG GAMBAR LORI -->
-            <!-- Nota: Jika ada fail gambar lori (cth: lori3tan.jpg), padamkan kod 'div class="image-placeholder"' ini dan buka ulasan tag 'img' di bawahnya -->
-            <div class="image-placeholder">
-                📸 [ RUANG GAMBAR LORI 3 TAN ]
-                <span>Gantikan bahagian ini dengan tag &lt;img&gt; apabila gambar sedia.</span>
-            </div>
-            <!-- <img src="lori3tan.jpg" class="lori-img" alt="Lori 3 Tan Kota Marudu"> -->
+            <!-- RUANG GAMBAR LORI SEBENAR -->
+            <img src="IMG-20260702-WA0004.jpg" class="lori-img" alt="Lori 3 Tan Kota Marudu">
 
             <div class="service-content">
                 <div class="service-tags">
@@ -127,7 +117,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="Butiran_barang">Jenis / Butiran Barang:</label>
+                    <label for="butiran_barang">Jenis / Butiran Barang:</label>
                     <textarea id="butiran_barang" rows="3" placeholder="Contoh: Pindah barang rumah / Perabot meja kerusi / Barang runcit" required></textarea>
                 </div>
                 
